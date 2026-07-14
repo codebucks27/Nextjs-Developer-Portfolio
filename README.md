@@ -64,6 +64,7 @@ modern-portfolio/
 │  └─ widgets/           # Location + weather and token-usage widgets
 ├─ lib/
 │  ├─ content.ts         # ⭐ All site copy, projects, and links — your main edit point
+│  ├─ prompts.md         # 🎨 AI prompts used to generate the day/night hero image + video
 │  ├─ weather.ts         # Open-Meteo weather fetching
 │  └─ location.ts        # Server geolocation (Vercel headers + ipapi.co fallback)
 ├─ public/assets/        # Hero videos, posters, and project images
@@ -174,12 +175,15 @@ Almost everything is designed to be edited without hunting through code.
 |---|---|
 | ✍️ **Copy, projects, links** (nav, work, capabilities, stack, footer) | `lib/content.ts` — one central file |
 | 🖼️ **Hero videos, posters, project images** | Swap files in `public/assets/` (keep the same filenames, or update the paths in `content.ts`) |
+| 🤖 **Generate your own hero media with AI** | `lib/prompts.md` — the exact image + video prompts used to create the day/night hero backgrounds |
 | 🎨 **Colors, fonts, spacing** (design tokens) | `app/globals.css` — the `@theme` block |
 | 🧾 **Site metadata** (title, description, social preview) | `app/layout.tsx` |
 
 **Tips:**
 
 > 🎥 To change the day/night hero backgrounds, replace `hero-background-video.mp4` / `hero-night-video.mp4` and their `hero-day-poster.webp` / `hero-night-poster.webp` posters in `public/assets/`. Keep videos lean (short, compressed) for fast loads.
+
+> 🤖 Want to create your **own** day/night hero scene with AI? Open **`lib/prompts.md`** — it contains the ready-to-use prompts: an image-generation prompt (ChatGPT) for the day scene, a follow-up prompt that converts it to a golden-hour night version, and a video-generation prompt (Google Gemini) that animates the image into a subtle looping background.
 
 > 🎨 The design system is token-driven. Change one value in `app/globals.css` (like the orange accent or the cream canvas) and it flows through the entire site — no find-and-replace needed.
 

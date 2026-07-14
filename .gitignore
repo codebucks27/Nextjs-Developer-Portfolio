@@ -32,10 +32,11 @@ pnpm-debug.log*
 .env*
 !.env.example
 
-# internal
-CLAUDE.md
-.claude
-.agents
+# internal — never ship to buyers
+/script/
+/CLAUDE.md
+/.claude/
+/.agents/
 /release-kit/
 
 # typescript
