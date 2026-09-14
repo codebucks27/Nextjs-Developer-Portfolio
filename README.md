@@ -11,7 +11,7 @@
 
 ![Portfolio hero — day mode](./project-images/Portfolio-Hero-Day.png)
 
-> 🎉 **Thank you for your purchase!** You're holding the complete, production-ready source code. This README walks you from an empty folder to a live site — even if you've never touched Next.js before. Take your time; every step is spelled out.
+> 🎉 **Do not forget to star the repo!** You're holding the complete, production-ready source code. This README walks you from an empty folder to a live site — even if you've never touched Next.js before. Take your time; every step is spelled out.
 
 > 📺 Prefer to follow along? The full build is on YouTube → **[Watch the tutorial](https://youtu.be/1qJEZVr6eXE)**
 
@@ -293,9 +293,7 @@ Questions, or want a fully custom build?
 
 ---
 
-## 🔒 License & Fair Use
-
-This is **paid, licensed source code**, and access is granted **per purchase** through a GitHub invitation to this private repository.
+## 🔒 Fair Use
 
 **✅ You may:**
 - Use it for your **own** personal or commercial portfolio.
@@ -304,9 +302,5 @@ This is **paid, licensed source code**, and access is granted **per purchase** t
 
 **🚫 You may not:**
 - Share, resell, or redistribute the source code.
-- Publish it publicly — including public forks, public repositories, or gists.
-- Leak or hand off the code to anyone who hasn't purchased their own license.
 
-In short: **build amazing things with it, just keep the source private to you.** One purchase, one licensed user. 💛
-
-> 🙏 **Thank you for supporting the channel.** Your purchase directly funds more free tutorials and open projects. It genuinely means a lot. Now go build something beautiful. - **CodeBucks**
+> 🙏 **Thank you for supporting the channel.** Your support directly funds more free tutorials and open projects. It genuinely means a lot. Now go build something beautiful. - **CodeBucks**
