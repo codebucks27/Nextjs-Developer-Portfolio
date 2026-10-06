@@ -304,3 +304,7 @@ Questions, or want a fully custom build?
 - Share, resell, or redistribute the source code.
 
 > 🙏 **Thank you for supporting the channel.** Your support directly funds more free tutorials and open projects. It genuinely means a lot. Now go build something beautiful. - **CodeBucks**
+
+## Other project
+
+From the creator: [SmartHeadshots AI](https://www.smartheadshots.ai/), a tool for creating AI headshots.
